@@ -1,0 +1,31 @@
+{
+  "name": "app-process-movement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aforo255-micronode/app-process-movement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aforo255-micronode/app-process-movement/issues"
+  },
+  "homepage": "https://github.com/aforo255-micronode/app-process-movement#readme",
+  "dependencies": {
+    "@datalust/winston-seq": "^1.0.2",
+    "dotenv": "^16.0.3",
+    "kafkajs": "^2.2.3",
+    "mongodb": "^4.13.0",
+    "node-fetch": "^2.6.8",
+    "pg": "^8.8.0",
+    "winston": "^3.8.2",
+    "zipkin": "^0.22.0",
+    "zipkin-instrumentation-express": "^0.22.0",
+    "zipkin-transport-http": "^0.22.0"
+  }
+}
