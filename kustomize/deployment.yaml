@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app-deployment-security
+  name: app-deployment-process-movement
   labels:
-    app: service-security
+    app: service-process-movement
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: service-security
+      app: service-process-movement
   template:
     metadata:
       labels:
-        app: service-security
+        app: service-process-movement
     spec:
       containers:
-      - name: app-security
-        image: jeanflores2c93/aforo255-nodejs-security:latest
-        ports:
-        - containerPort: 5001
+      - name: app-process-movement
+        image: jeanflores2c93/aforo255-nodejs-process-movement:latest
+        # ports:
+        # - containerPort: 5001
         env:
         - name: NACOS_SERVERADDR
           value: "161.35.233.217:8848"

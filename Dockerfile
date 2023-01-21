@@ -8,5 +8,5 @@ COPY --chown=node:node . .
 EXPOSE 80
 CMD [ "node", "app.js" ]
 
-# docker build -t jeanflores2c93/aforo255-nodejs-app-process-account:local-1 .
-# docker push jeanflores2c93/aforo255-nodejs-app-process-account:local-1
+# docker build -t jeanflores2c93/aforo255-nodejs-process-account:local-1 .
+# docker push jeanflores2c93/aforo255-nodejs-process-account:local-1
